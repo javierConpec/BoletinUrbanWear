@@ -1,0 +1,226 @@
+/* General */
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.email-wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.email-header {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.brand-title {
+    font-size: 2.5em;
+    color: #000;
+}
+
+.tagline {
+    font-size: 1.2em;
+    color: #888;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.hero-image {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.hero-section h2 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.hero-subtitle {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #444;
+}
+
+/* Product Section */
+.product-section {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.price {
+    color: #27ae60;
+    font-size: 1.3em;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f7f7f7;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+
+.newsletter-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    color: #555;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+}
+
+.email-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.subscribe-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.subscribe-button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+.email-footer {
+    text-align: center;
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.email-footer a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.email-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-grid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product-card {
+        width: 100%;
+    }
+
+    .email-input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brand-title {
+        font-size: 2em;
+    }
+
+    .hero-section h2 {
+        font-size: 1.5em;
+    }
+
+    .hero-subtitle {
+        font-size: 1em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+    }
+
+    .product-card h3 {
+        font-size: 1.3em;
+    }
+
+    .newsletter-section h2 {
+        font-size: 1.5em;
+    }
+}
