@@ -399,7 +399,7 @@ body {
     }
 
     .product-item {
-        flex: 1 1 100%; /* Ajuste para pantallas pequeñas */
+        flex: 1 1 100%; 
     }
 }
 

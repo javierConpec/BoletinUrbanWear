@@ -16,7 +16,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Header */
+
 .email-header {
     text-align: center;
     padding: 30px 0;
@@ -33,7 +33,7 @@ body {
     color: #888;
 }
 
-/* Hero Section */
+
 .hero-section {
     text-align: center;
     margin: 30px 0;
@@ -69,7 +69,7 @@ body {
     background-color: #444;
 }
 
-/* Product Section */
+
 .product-section {
     text-align: center;
     margin: 50px 0;
@@ -118,7 +118,7 @@ body {
     background-color: #555;
 }
 
-/* Newsletter Section */
+
 .newsletter-section {
     text-align: center;
     padding: 40px 0;
